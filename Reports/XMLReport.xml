@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="38.518">
+    <testcase classname="Learning Parameters" name="Login with parameters" time="16.188">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters username as admin and password as admin123.................passed
+And user clicks on login button.............................................passed
+Then user should be successfully logged in..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Learning Parameters" name="Login with parameters 2" time="16.237">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters username as hr and password as hr123.......................passed
+And user clicks on login button.............................................passed
+Then user should be successfully logged in..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Add User Feature" name="Validate Add User Functionality" time="5.75">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given user is on login page.................................................passed
+When user enters username...................................................passed
+And user enters password....................................................passed
+And user clicks on login button.............................................passed
+Then user should be logged in...............................................undefined
+When user is on Admin Page..................................................skipped
+And user clicks on Add button...............................................skipped
+And user enters the details.................................................skipped
+And user clicks on Save button..............................................skipped
+Then user should be added successfully......................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>

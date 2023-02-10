@@ -1,0 +1,21 @@
+Cucumber Notes
+
+BDD: Behavior Driven Development
+GWT framework
+
+given: pre-conditions
+when: steps to perform
+then: exp op
+
+Scenario: Validate Send Friend Request feature
+Given user is on login page
+When user enters username and password
+ANd user clicks on login button
+And user enters some text in search friend field
+And user selects one person
+And user clicks on Send Friend Request
+Then request should be sent to that user
+
+Scenario Outline:
+Run same scenario with multiple set of data
+Examples keyword to give the input data
